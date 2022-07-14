@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/khautrangview"
+    tools:context=".productkittest"
+    android:background="@color/white">
+
+    <ScrollView
+        android:id="@+id/info"
+        android:layout_width="match_parent"
+        android:layout_height="785dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="327dp"
+                android:layout_height="300dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/kittestcovid"
+                tools:layout_editor_absoluteX="41dp"
+                tools:layout_editor_absoluteY="2dp" />
+
+            <TextView
+                android:layout_width="374dp"
+                android:layout_height="wrap_content"
+                android:text="Bộ Test Nhanh Humasis Covid-19 Ag Test Covid-19 Ag Test"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="43dp"
+                tools:layout_editor_absoluteY="320dp" />
+
+            <LinearLayout
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/diemthuong">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="+109 điểm thành viên"
+                    android:textColor="#E39727"
+                    android:textStyle="bold"
+                    tools:layout_editor_absoluteX="43dp"
+                    tools:layout_editor_absoluteY="320dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="109.000đ/kit"
+                    android:textColor="#4D5AD5"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    tools:layout_editor_absoluteX="43dp"
+                    tools:layout_editor_absoluteY="320dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:id="@+id/textView31"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="*Bộ Test Nhanh Humasis Covid-19 Ag Test là sản phẩm đến từ thương hiệu Humasis của Hàn Quốc, thiết bị giúp chẩn đoán nhanh in vitro ban đầu dựa trên phương pháp sắc ký miễn dịch. Thiết bị được thiết kế để phát hiện định tính kháng nguyên SARS CoV 2 qua mẫu ngoáy dịch tỵ hầu ở người nghi nhiễm COVID-19.\n\n
+*Đối tượng sử dụng:\n
+Dành cho mọi người.\n\n
+Bộ sản phẩm bao gồm:\n
+01 Khay thử\n
+01 Nắp lọc\n
+01 Ống nghiệm chứa dịch tách chiết\n
+01 Tăm bông lấy mẫu\n\n
+Quy trình lấy mẫu:\n
+ -Rửa sạch tay hoặc sát trùng tay bằng cồn.\n\n
+ -Mở gói chứa que tẩm bông để lấy mẫu:\n\n
+ -Lấy que tẩm bông chứa trong gói bằng cách cầm đầu que không có bông, lưu ý không chạm vào phần bông của que.\n\n
+ -Đưa đầu có tẩm bông vào trong lỗ mũi, đẩy về hướng lỗ tai. Tiếp tục đẩy nhẹ vào càng sâu càng tốt cho tới khi đã chạm tới cuối.\n\n
+ -Ngoáy que tẩm bông 5 lần và giữ yên tại vị trí đó khoảng từ 5-10 giây.\n\n
+ -Cẩn thận lấy que tẩm bông ra để không đụng vào đầu tẩm của que.\n\n
+Quy trình xét nghiệm:\n
+ -Lấy túi nhôm chứa thiết bị xét nghiệm ra khỏi nơi bảo quản lạnh hoặc bảo quản âm và để ở nhiệt độ thường khoảng 30 phút cho đến khi sản phẩm đạt được nhiệt độ phòng.\n\n
+ -Lấy khay xét nghiệm ra khỏi túi nhôm và đặt nó trên một bề mặt bằng phẳng.\n\n
+ -Lắc ống nghiệm theo hướng xuống dưới để dung dịch đệm dồn xuống đáy trước khi mở ống nghiệm.\n\n
+ -Cắm đầu tăm bông vừa lấy mẫu vào và nhúng xoáy đầu tăm hơn 10 lần để có thể tách chiết được đủ mẫu cho xét nghiệm.\n\n
+ -Lấy que tẩm bông ra khỏi ống dung dịch. Khi lấy ra, ấn đầu của tăm bông vào thành ống hoặc bóp ống để có thể lấy hết dung dịch khỏi que tẩm bông.\n\n
+ -Lắp nắp lọc vào ống, sau đó nhỏ 3 giọt dịch chiết mẫu (90 ~ 100uL) vào khay xét nghiệm tại vị trí nhỏ mẫu.\n\n
+ -Chờ đợi và đọc kết quả trong vòng 15 phút sau khi nhỏ mẫu. Không đọc kết quả sau 20 phút.\n\n
+Cách đọc kết quả:\n
+ -Kết quả được cho là âm tính: Nếu không có vạch nào xuất hiện tại vạch xét nghiệm chữ T và cách 1 vạch màu xuất hiện trên vạch đối chứng chữ C.\n\n
+ -Kết quả được cho là dương tính: Nếu đồng thời xuất hiện 2 vạch màu cạnh vạch xét nghiệm chữ T và vạch đối chứng chữ C hoặc xuất hiện vạch mờ tại vạch xét nghiệm chữ T và vạch màu xuất hiện trên vạch đối chứng chữ C.\n\n
+ -Test không hợp lệ hoặc không có giá trị nếu không có vạch nào xuất hiện tại vạch đối chứng chữ C.\n\n
+Bảo quản: \n
+ -Nơi khô ráo thoáng mát. \n\n
+ -Giữ trong bọc kín khi chưa sử dụng.\n\n
+Quy cách đóng gói: 1 Bộ ; 25 Bộ\n\n
+Thương hiệu: Humasis\n\n
+Xuất xứ thương hiệu: Hàn Quốc."
+                    android:textColor="@color/black" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/get1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="785dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/bar"
+            android:src="@drawable/ic_baseline_local_phone_24" />
+
+        <Button
+            android:layout_width="296dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/btn_bg"
+            android:text="Mua"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</RelativeLayout>

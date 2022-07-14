@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/voucherview"
+        tools:context=".voucherview"
+        android:background="@color/white">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="785dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="327dp"
+                    android:layout_height="300dp"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/voucher"
+                    tools:layout_editor_absoluteX="41dp"
+                    tools:layout_editor_absoluteY="2dp" />
+
+                <TextView
+                    android:layout_width="324dp"
+                    android:layout_height="69dp"
+                    android:text="Voucher 15.000 đồng"
+                    android:textColor="@color/black"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    tools:layout_editor_absoluteX="43dp"
+                    tools:layout_editor_absoluteY="320dp" />
+
+                <LinearLayout
+                    android:layout_width="170dp"
+                    android:layout_height="25dp"
+                    android:layout_marginTop="0dp"
+                    android:background="@drawable/diemthuong">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="   -1500 điểm thành viên"
+                        android:textColor="#E39727"
+                        android:textStyle="bold"
+                        tools:layout_editor_absoluteX="43dp"
+                        tools:layout_editor_absoluteY="400dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="  Phiếu giảm giá 15.000đ"
+                        android:textColor="#4D5AD5"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        tools:layout_editor_absoluteX="43dp"
+                        tools:layout_editor_absoluteY="350dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <TextView
+                        android:id="@+id/textView31"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="  Giảm ngay 15.000 đồng cho đơn hàng từ 0 đồng\n
+ Áp dụng cho tất cả cửa hàng trên toàn quốc\n  Phiếu giảm giá áp dụng tới 00 giờ ngày 1 tháng 8 năm 2022"
+                        android:textColor="@color/black" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <TextView
+            android:layout_width="225dp"
+            android:layout_height="50dp"
+            android:text="Dùng 1500 điểm?"
+            android:textColor="@color/black"
+            android:textSize="25dp"/>
+
+        <Button
+            android:id="@+id/btndoiqua"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/btn_bg"
+            android:text="Đổi quà"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

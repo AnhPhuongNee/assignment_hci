@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/khautrangview"
+    tools:context=".productkhautrangview"
+    android:background="@color/white">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="785dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="327dp"
+                android:layout_height="300dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/khautrang1"
+                tools:layout_editor_absoluteX="41dp"
+                tools:layout_editor_absoluteY="2dp" />
+
+            <TextView
+                android:layout_width="324dp"
+                android:layout_height="69dp"
+                android:text="Khẩu trang KJ95(Hộp 20 cái)"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="43dp"
+                tools:layout_editor_absoluteY="320dp" />
+
+            <LinearLayout
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/diemthuong">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="+125 điểm thành viên"
+                    android:textColor="#E39727"
+                    android:textStyle="bold"
+                    tools:layout_editor_absoluteX="43dp"
+                    tools:layout_editor_absoluteY="320dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="125.000đ/Hộp"
+                    android:textColor="#4D5AD5"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    tools:layout_editor_absoluteX="43dp"
+                    tools:layout_editor_absoluteY="320dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:id="@+id/textView31"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ĐẶC ĐIỂM NỔI BẬT VÀ CÔNG DỤNG\n
+        – Sản xuất từ nguyên liệu vải không dệt và màng lọc kháng khuẩn\n
+        – Thiết kế thông minh, có chứa thanh nhôm kim loại, vừa vặn và ôm sát khuôn mặt\n
+        – Thiết kế theo model KF95 Hàn Quốc\n
+        – Đáp ứng tiêu chuẩn về sản xuất trang thiết bị y tế của bộ y tế Việt Nam và đạt tiêu chuẩn xuất khẩu Mỹ\n\n
+        – Công dụng\n\n
+        + Kháng vi khuẩn, ngăn ngừa bụi và các bệnh lây qua đường hô hấp\n
+        + Kháng khuẩn BFE >99%, ngăn ngừa bụi mịn PM 2.5\n
+        + Sử dụng hiệu quả trong môi trường bệnh viện, nơi làm việc và khi lưu thông trên đường\n
+        + Chống nắng, ngăn những tác hại xấu từ môi trường gây ảnh hưởng đến da\n\n
+        HƯỚNG DẪN BẢO QUẢN\n\n
+        – Bảo quản nơi khô ráo thoáng mát\n
+        – Tránh nhiệt độ cao (trên 40°C hoặc 104°F)\n\n
+        SHOP XIN CAM KẾT\n\n
+        – Sản phẩm 100% giống mô tả\n
+        – Kiểu dáng hoàn toàn giống ảnh mẫu\n
+        – Hàng chính hãng đạt tiêu chuẩn của bộ y tế\n
+        – Hỗ trợ, tư vấn nhiệt tình\n
+        – Ship COD toàn quốc\n
+        – Đổi trả miễn phí trong vòng 7 ngày, điều kiện:\n
+        + Hàng hoá vẫn còn mới, chưa qua sử dụng, còn nguyên tem mác\n
+        + Hàng không đúng mẫu mã, kiểu dáng như quý khách đã đặt"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="785dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/bar"
+            android:src="@drawable/ic_baseline_local_phone_24" />
+
+        <Button
+            android:id="@+id/btnmua"
+            android:layout_width="296dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/btn_bg"
+            android:text="Mua"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</RelativeLayout>

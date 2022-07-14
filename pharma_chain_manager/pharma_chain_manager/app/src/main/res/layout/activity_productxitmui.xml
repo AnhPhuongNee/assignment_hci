@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/khautrangview"
+    tools:context=".productxitmui"
+    android:background="@color/white"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="785dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="327dp"
+                android:layout_height="300dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/xitmui"
+                tools:layout_editor_absoluteX="41dp"
+                tools:layout_editor_absoluteY="2dp" />
+
+            <TextView
+                android:layout_width="374dp"
+                android:layout_height="wrap_content"
+                android:text="-Chai Xịt Mũi Kháng Virus Viraleze Giảm Phơi Nhiễm, Bệnh Do Virus 10Ml"
+                android:textSize="25sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="43dp"
+                tools:layout_editor_absoluteY="320dp" />
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/diemthuong">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="+350 điểm thành viên"
+                    android:textStyle="bold"
+                    android:textColor="#E39727"
+                    tools:layout_editor_absoluteX="43dp"
+                    tools:layout_editor_absoluteY="320dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="350.000đ/Hộp"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#4D5AD5"
+                    tools:layout_editor_absoluteX="43dp"
+                    tools:layout_editor_absoluteY="320dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:id="@+id/textView31"
+                    android:layout_width="match_parent"
+                    android:layout_height="233dp"
+                    android:text="Xuất xứ thương hiệu:  Úc\n\n
+*Thành phần:  Purified water, Astodrimer, Glycerol, Natri hydroxide, Propylene glycol, carbomer homopolymer type b\n\n
+*Công dụng:  Bình Xịt Mũi Kháng Virus Viraleze 10ml có chứa 1% w/w natri astodrimer, đã được chứng minh trong các nghiên cứu ở phòng thí nghiệm giúp bất hoạt virus đường hô hấp, bao gồm trên 99.9% Coronavirus SARS-CoV-2, virus gây ra COVID-19, giúp giảm phơi nhiễm với mầm bệnh do virus.\n\n
+Quy cách:  Hộp\n\n
+Nước sản xuất:  Belgium\n\n
+Nhà sản xuất:  Starpharma Pty.ltd "
+                    android:textColor="@color/black" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="785dp">
+
+        <ImageButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/bar"
+            android:src="@drawable/ic_baseline_local_phone_24" />
+
+        <Button
+            android:layout_gravity="center"
+            android:layout_width="296dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_bg"
+            android:layout_marginLeft="5dp"
+            android:text="Mua"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</RelativeLayout>

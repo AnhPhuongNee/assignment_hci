@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/khautrangview"
+    tools:context=".productvitaminc"
+    android:background="@color/white">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="785dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="327dp"
+                android:layout_height="300dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/vitac1"
+                tools:layout_editor_absoluteX="41dp"
+                tools:layout_editor_absoluteY="2dp" />
+
+            <TextView
+                android:layout_width="374dp"
+                android:layout_height="wrap_content"
+                android:text="-Viên Sủi Bổ Sung Vitamin Myvita Multivitamin Vị Cam (Tuýp 20 Viên)"
+                android:textSize="25sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="43dp"
+                tools:layout_editor_absoluteY="320dp" />
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/diemthuong">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="+25 điểm thành viên"
+                    android:textStyle="bold"
+                    android:textColor="#E39727"
+                    tools:layout_editor_absoluteX="43dp"
+                    tools:layout_editor_absoluteY="320dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="25.000đ/tuýt"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#4D5AD5"
+                    tools:layout_editor_absoluteX="43dp"
+                    tools:layout_editor_absoluteY="320dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:id="@+id/textView31"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="*MyVita Multivitamin Cam bổ sung vitamin và khoáng chất đặc biệt quan trọng trong cơ thể, giúp giảm mệt mỏi, hỗ trợ tăng cường sức khỏe, tăng sức đề kháng cho cơ thể. Duy trì tinh thần tích cực, năng động cho cả ngày dài học tập và làm việc.\n\n
+Cung cấp năng lượng \n\n
+*Khi cơ thể suy nhược, bạn sẽ thường xuyên mệt mỏi, mất ngủ, đau đầu, hay cáu gắt và khó tập trung,... Để cải thiện vấn đề này, MyVita Multivitamin Cam bổ sung 7 loại vitamin nhóm B với công dụng chính là tăng cường khả năng trao đổi chất trong cơ thể, giúp chuyển hóa thức ăn thành dạng năng lượng để duy trì hoạt động của các tế bào. Vitamin nhóm B còn góp phần vào quá trình tạo máu, giúp ổn định hoạt động thần kinh, làm giảm căng thẳng, mệt mỏi và các triệu chứng suy nhược cơ thể.\n\n
+Tăng cường đề kháng\\n
+*Sức đề kháng chính là khả năng phòng vệ của cơ thể trước sự xâm nhập của các yếu tố gây hại bên ngoài. Sức đề kháng càng yếu thì hệ miễn dịch của cơ thể cũng suy giảm. Đây là nguyên nhân hàng đầu dẫn đến các bệnh truyền nhiễm. Việc tăng cường đề kháng chính là tăng sức mạnh tự vệ giúp cơ thể luôn vững chắc tránh nguy cơ nhiễm bệnh.\n
+*Vitamin C và kẽm hỗ trợ chức năng của các tế bào khác nhau trong cả hệ thống miễn dịch, kích thích sự phát triển của các tế bào lympho T và lympho B. Duy trì vitamin C và kẽm trong cơ thể sẽ giúp củng cố hàng rào đề kháng chống lại sự xâm nhập của các tác nhân gây bệnh cho cơ thể từ môi trường bên ngoài. " />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="785dp">
+
+        <ImageButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/bar"
+            android:src="@drawable/ic_baseline_local_phone_24" />
+
+        <Button
+            android:layout_width="296dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/btn_bg"
+            android:layout_marginLeft="5dp"
+            android:text="Mua"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</RelativeLayout>
